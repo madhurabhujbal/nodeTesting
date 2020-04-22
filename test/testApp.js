@@ -21,4 +21,9 @@ describe('App', function() {
         assert.isAbove(result, 5);
 
     });
+
+    it('addNumbers should return a number', function() {
+        let result = addNumbers(4,8);
+        assert.typeOf(result, 'number');
+    });
 });
