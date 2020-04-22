@@ -6,6 +6,7 @@ const assert = require('chai').assert;
 describe('App', function() {
     //testing the actual value
     it('App should return hello', function() {
-        assert.equal(sayHello(), 'hello');
+        let result = sayHello();
+        assert.equal(result, 'hello');
     });
 });
