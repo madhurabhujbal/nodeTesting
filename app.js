@@ -1,3 +1,7 @@
-module.exports = function() {
+module.exports = {
+    sayHello : function() {
     return 'hello';
+    },
+
+    myKey : 10
 };
